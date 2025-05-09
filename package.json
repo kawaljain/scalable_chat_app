@@ -1,0 +1,32 @@
+{
+  "name": "scalable_chat_app",
+  "version": "1.0.0",
+  "description": "A scalable full-stack chat application using React (Vite) and Express, designed with modular architecture.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaljain/scalable_chat_app.git"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  },
+  "keywords": [
+    "chat",
+    "react",
+    "vite",
+    "express",
+    "full-stack",
+    "socket.io",
+    "monorepo",
+    "scalable",
+    "microservices"
+  ],
+  "author": "Kawal Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawaljain/scalable_chat_app/issues"
+  },
+  "homepage": "https://github.com/kawaljain/scalable_chat_app#readme"
+}
