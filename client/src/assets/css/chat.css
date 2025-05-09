@@ -1,0 +1,125 @@
+:root {
+  --chat-app-height: calc(100vh - 200px);
+}
+
+.card {
+  background: #fff;
+  transition: 0.5s;
+  border: 0;
+  margin-bottom: 30px;
+  border-radius: 0.55rem;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+
+.chat-app {
+  height: var(--chat-app-height);
+}
+.people-list {
+  height: var(--chat-app-height) !important;
+  overflow-y: auto;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.chat-app .people-list {
+  left: 0;
+  top: 0;
+  padding: 20px;
+  z-index: 7;
+}
+.chat-user-list-container {
+  width: 100%;
+  overflow: auto;
+  height: var(--chat-app-height) - 100px;
+}
+.chat-user-list {
+  width: 100%;
+  display: inline-block;
+}
+.chat-app .chat {
+  border-left: 1px solid #eaeaea;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 2px solid #f4f7f6;
+}
+.profile-image {
+  border-radius: 10px;
+  border-radius: 60px;
+  width: 60px;
+  border: 2px solid #5957f9;
+  margin-right: 10px;
+}
+.name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #272727;
+  position: relative;
+  top: 8px;
+}
+.mail {
+  font-size: 14px;
+  color: grey;
+  position: relative;
+  top: 2px;
+}
+
+.chat-meessage-container {
+  height: var(--chat-app-height) !important;
+}
+
+.people-list .top-container.active {
+  background: #efefef;
+}
+.people-list .top-container:hover {
+  background: #efefef;
+}
+
+.chat-header {
+  margin-bottom: 20px;
+}
+
+.chat-message {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.other-message {
+  flex-direction: column;
+}
+.my-message {
+  flex-direction: row-reverse;
+}
+.message {
+  text-align: right;
+  flex-direction: row-reverse;
+  background: #efefef;
+  max-width: 75%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #e2e3e5;
+  position: relative;
+}
+.chat-time {
+  font-size: 0.75rem;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+.chat .chat-history {
+  border-bottom: 2px solid #fff;
+  overflow: auto;
+  height: calc(100vh - 400px);
+}
+.chat-input {
+  border-top: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  background-color: white;
+}
