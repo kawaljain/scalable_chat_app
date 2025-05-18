@@ -99,7 +99,7 @@ This will concurrently start:
 * CORS, Helmet, Logger middleware
 ---
 
-## 🏗️ Architecture diagram
+## Architecture diagram
 
 ![Chat App Architecture](./chat-architecture.png)
 
