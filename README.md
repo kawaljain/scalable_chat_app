@@ -97,6 +97,19 @@ This will concurrently start:
 * MongoDB (planned)
 * dotenv
 * CORS, Helmet, Logger middleware
+---
+
+## 🏗️ Architecture diagram
+
+![Chat App Architecture](./chat-architecture.png)
+
+This chat app includes:
+
+- 👤 Users connected to application servers  
+- 🖥️ Multiple Node.js servers running Express and Socket.IO  
+- 🔴 Redis Pub/Sub for scalable real-time message delivery  
+- 📡 Horizontal scaling across servers  
+
 
 ---
 
@@ -120,7 +133,23 @@ This will concurrently start:
 * [ ] Create user auth module (login/register)
 * [ ] Dockerize frontend and backend
 * [ ] Add unit tests (Jest + React Testing Library)
+---
 
+## 📚 Read More
+
+For the full blog post on building this scalable chat app with Socket.IO, Express, and Redis Pub/Sub, check out my blog here:
+
+👉 [Building a Scalable Chat App - My Blog on Hashnode](https://blog.kawaljain.com/building-a-scalable-chat-app)
+
+👉 [Building a Scalable Chat App - My Blog on Medium](https://kawaljain.medium.com/building-a-scalable-chat-app-9fabdab2bd45)
+
+---
+
+## 🔗 Other Resources
+
+You can also explore the live demo and code on Errasor.io here:
+
+👉 [Errasor.io Chat App Demo & Code](https://app.eraser.io/workspace/LU14XzUDu6CVz3OMoxjG?origin=share)
 ---
 
 ## 🧑‍💻 Author
@@ -134,7 +163,6 @@ This will concurrently start:
 ## 📄 License
 
 Licensed under the **ISC License**. See [`LICENSE`](./LICENSE) for more details.
-
 ---
 
 ## 🐛 Issues
