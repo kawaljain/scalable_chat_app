@@ -142,6 +142,3 @@ Licensed under the **ISC License**. See [`LICENSE`](./LICENSE) for more details.
 Found a bug or want to request a feature?
 Open an issue here: [https://github.com/kawaljain/scalable_chat_app/issues](https://github.com/kawaljain/scalable_chat_app/issues)
 
-```
-
----
